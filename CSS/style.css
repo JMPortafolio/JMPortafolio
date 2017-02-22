@@ -5,11 +5,54 @@
 }
 
 body {
+	background-color: #000;
+}
+
+.pag img{
+	margin: 2em;
+	height: 400px;
+	width: 850px;
+}
+
+.pag p {
+	margin-bottom: 1em;
+}
+
+/*body {
 	background-image: url("http://2.bp.blogspot.com/-2jH3Mh0_OuE/UQ-tFS5MUyI/AAAAAAAAAE4/LaKqieFnG8o/s1600/Abstract+Blue+backgrounds+3.jpg");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+}*/
+
+.fondo {
+	background-image: url("https://s20.postimg.org/ttok0ijwt/Fondo_Total.png");
+	position: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	z-index: 999;
+}
+
+.contenidos {
+	position: absolute;
+	box-sizing: border-box;
+	top: 21.5%;
+	left: 171px;
+	width: 930px;
+}
+
+.pag {
+	text-align: center;
+	border-radius: 10px;
+	box-sizing: border-box;
+	background-color: #fff;
+	border: 2px solid #5F5F5F;
+	margin-bottom: 1em;
+	height: 560px;
 }
 
 .cabecera {
