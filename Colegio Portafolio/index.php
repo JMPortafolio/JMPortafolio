@@ -11,7 +11,7 @@
             </tr>
             <tr>
                 <?php
-                    $conexion = mysqli_connect("db4free.net", "jeisonx47", "Jeisonx124563", "cole_portafolio", "3306") or die("Hubo un error al conectarse con la base de datos remota. error: " . mysqli_error($conexion));
+                    $conexion = mysqli_connect("localhost", "id900053_jeisonx47", "Jeisonx124563", "id900053_cole_portafolio") or die("Hubo un error al conectarse con la base de datos remota. error: " . mysqli_error($conexion));
 
                     $resultado = mysqli_query($conexion, "SELECT * FROM Materias");
 
