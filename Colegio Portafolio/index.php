@@ -15,11 +15,13 @@
 
                     $resultado = mysqli_query($conexion, "SELECT * FROM Materias");
 
-                    $dato = mysqli_fetch_array($resultado);
-
-                    echo "<td>". $dato[0] ."</td>";
-                    echo "<td>". $dato[1] ."</td>";
-                    echo "<td>". $dato[2] ."</td>";
+                    while ($dato = mysqli_fetch_array($resultado)) {
+                        echo "<tr>";
+                        echo "<td>". $dato[0] ."</td>";
+                        echo "<td>". $dato[1] ."</td>";
+                        echo "<td>". $dato[2] ."</td>";
+                        echo "<tr/>";
+                    }
 
                     mysqli_close($conexion);
                 ?>
