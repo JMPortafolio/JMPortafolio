@@ -302,7 +302,7 @@ body {
     top: 95.7%;
     background-image: url("../Imagenes/pw_maze_black_@2X.png");
     background-repeat: repeat;
-    z-index: 5;
+    z-index: 99999999999999999999;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     border-top-width: 35px;
