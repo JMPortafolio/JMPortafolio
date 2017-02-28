@@ -241,7 +241,7 @@ body {
     color: white;
     position: fixed;
     z-index: 4;
-    top: 90.2%;
+    top: 91%;
     /* 92.5% */
     left: 50%;
     transform: translateX(-50%);
@@ -299,13 +299,13 @@ body {
     width: 70%;
     border: 6px solid #ffffff;
     height: 40%;
-    top: 95.7%;
+    top: 97.5%;
     background-image: url("../Imagenes/pw_maze_black_@2X.png");
     background-repeat: repeat;
     z-index: 99999999999999999999;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    border-top-width: 35px;
+    border-top-width: 20px;
     transition: top 0.5s linear;
     -moz-transition: top 0.5s linear;
     -ms-transition: top 0.5s linear;
@@ -334,10 +334,9 @@ body {
     width: 175px;
 }
 
-#bio p {
-    margin-top: 0.5em;
+#bio th {
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    font-size: 0.8em;
+    font-size: 1.5em;
 }
